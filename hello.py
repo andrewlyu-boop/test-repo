@@ -1,0 +1,9 @@
+# Simple Python Hello World
+
+def greet(name):
+    """Greet someone by name."""
+    return f"Hello, {name}!"
+
+if __name__ == "__main__":
+    print(greet("World"))
+    print(greet("GitHub"))
